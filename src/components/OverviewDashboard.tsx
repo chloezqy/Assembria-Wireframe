@@ -59,7 +59,7 @@ export function OverviewDashboard() {
           <div className="h-[200px] border-2 border-border rounded-lg p-6 flex items-center justify-center bg-muted">
             <span className="text-muted-foreground">[ Donut Chart Placeholder ]</span>
           </div>
-          <div className="mt-5 space-y-2.5">
+          {/* <div className="mt-5 space-y-2.5">
             {["Critical", "Warning", "Info"].map((item, idx) => (
               <div key={item} className="flex items-center justify-between p-2 rounded-lg">
                 <div className="flex items-center gap-3">
@@ -69,7 +69,7 @@ export function OverviewDashboard() {
                 <span className="text-foreground">{[12, 28, 45][idx]}</span>
               </div>
             ))}
-          </div>
+          </div> */}
         </Card>
       </div>
 
